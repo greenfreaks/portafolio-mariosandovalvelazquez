@@ -1,0 +1,38 @@
+/*PROMPT*/
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300&display=swap');
+
+/* Source code pro*/
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+html {
+    font-family: 'Prompt', sans-serif !important;
+    font-size: 16px;
+    @media screen and (max-width: 668px) {
+        font-size: 14px;
+    }
+
+    @media screen and (max-width: 380px) {
+        font-size: 12px;
+    }
+}
+
+p {
+    font-size: 1rem;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1rem;
+}
+
+h4,
+h5,
+h6 {
+    font-size: 0.75rem;
+}

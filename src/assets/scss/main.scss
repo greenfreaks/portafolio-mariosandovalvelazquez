@@ -1,0 +1,22 @@
+
+/* Base */
+@import "base/colorVariables";
+@import "base/fonts";
+@import "base/reset";
+
+/* Utilities*/
+@import "utilities/backgrounds";
+@import "utilities/texts";
+
+/* Components*/
+@import "components/buttons";
+@import "components/titulo";
+
+
+/*Layout*/
+@import "layout/navbar";
+@import "layout/header";
+@import "layout/footer";
+
+// /*Views*/
+// @import "views/home";
