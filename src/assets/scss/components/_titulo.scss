@@ -1,8 +1,12 @@
 .titulo{
     display: flex;
     align-items: center;
-    font-weight: 700;
+    margin-bottom: 50px;
     img{
         height: 30px;
+        margin-right: 40px;
+    }
+    h2{
+        font-weight: 500;
     }
 }

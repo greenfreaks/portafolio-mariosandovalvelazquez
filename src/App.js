@@ -14,6 +14,10 @@ import PUG from './assets/img/pug.png';
 import PHP from './assets/img/php.png';
 import MYSQL from './assets/img/mysql.png';
 import GREENSOCK from './assets/img/greensock.png';
+import FotoMario from './assets/img/fotoMario.png'; 
+import Linkedin from './assets/img/linkedin.png'; 
+import Gmail from './assets/img/gmail.png'; 
+import GithubSocial from './assets/img/githubSocial.png'; 
 
 function App() {
   return (
@@ -38,8 +42,31 @@ function App() {
               <img src={GREENSOCK} alt='GSAP' title='GSAP'></img>
             </div>
         </section>
+
+        <div className='space'></div>
+        <section className='contacto'>
+          <Titulo texto= "Contacto"/>
+          <div className='contacto__fotoDescripcion sectionContent'>
+            <img className='contacto__fotoDescripcion--foto' src={FotoMario} alt='Mario Sandoval Velázquez' title='Mario Sandoval Velázquez'></img>
+            <div className='contacto__fotoDescripcion--descripcion'>
+              <p>"¡Hey! Si has llegado hasta aquí quiero agradecerte por tu interés en mi trabajo.</p>
+              <p>Estoy muy emocionado por que comencemos a desarrollar grandes proyectos y escribir juntos <span className='greenTx'>una nueva historia de éxito.</span>"</p>
+              <p>Mario Sandoval Velázquez <br />
+                <span className='greenTx'>Desarrollador web</span>
+              </p>
+            
+            </div>
+          </div>
+          <div className='contacto__social sectionContent'>
+            <img src={Linkedin} alt='Linkedin' title='Linkedin'></img>
+            <img src={Gmail} alt='Gmail' title='Gmail'></img>
+            <img src={GithubSocial} alt='Github' title='Github'></img>
+          </div>
+
+        </section>
+
+        <div className='space'></div>
       </main>
-      
     </div>
   );
 }
