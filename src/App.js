@@ -1,6 +1,8 @@
 import Navbar from './components/Navbar';
 import Header from './components/Header';
 import Titulo from './components/Titulo';
+import { Link, LinkImg } from './components/Links';
+import Certifications from './components/Certifications'
 
 //imgs
 import HTML from './assets/img/html.png';
@@ -17,7 +19,12 @@ import GREENSOCK from './assets/img/greensock.png';
 import FotoMario from './assets/img/fotoMario.png'; 
 import Linkedin from './assets/img/linkedin.png'; 
 import Gmail from './assets/img/gmail.png'; 
-import GithubSocial from './assets/img/githubSocial.png'; 
+import GithubSocial from './assets/img/githubSocial.png';
+import Utvam from './assets/img/utvam.png';
+import Coderhouse from './assets/img/coderhouse.png';
+import Itep from './assets/img/itep.png';
+import Alura from './assets/img/alura.png';
+import Voxy from './assets/img/voxy.png';
 
 function App() {
   return (
@@ -41,6 +48,79 @@ function App() {
               <img src={MYSQL} alt='MYSQL' title='MYSQL'></img>
               <img src={GREENSOCK} alt='GSAP' title='GSAP'></img>
             </div>
+        </section>
+
+        <div className='space'></div>
+        <section className='titulosCertificaciones'>
+          <Titulo texto= "Títulos y certificaciones" />
+          <div className='sectionContent'>
+            <Certifications img={Utvam} imgAlt="Utvam" imgTitle="Utvam">
+              <li><Link 
+              link='https://drive.google.com/file/d/1Tz9hnW50E_deQpukT-2eEGlGPVyr0jKe/view?usp=share_link' 
+              text="Título como Ingeniero en Tecnologías de la Información" 
+              alt="Título como ingeniero en Tecnologías de la Información" 
+              blank = {true}/>
+              </li>
+
+              <li><Link 
+              link='https://drive.google.com/file/d/1XNUhYLi4t9101Uiad7kwWmQOJ5Wmu7Ja/view?usp=share_link' 
+              text="Título como Técnico Superior Universitario en Tecnologías de la Información" 
+              alt="Título como Técnico Superior Universitario en Tecnologías de la Información" 
+              blank = {true}/>
+              </li>
+
+              <li><Link 
+              link='https://drive.google.com/file/d/1cE-nM4nzVNqKNHTwz-HkjshdtZOGn1H6/view?usp=share_link' text="Reconocimiento por obtener el nivel de Inglés B2" 
+              alt="Reconocimiento por obtener el nivel de Inglés B2" 
+              blank = {true}/>
+              </li>
+            </Certifications>
+
+            <Certifications img={Coderhouse} imgAlt="Coderhouse" imgTitle="Coderhouse">
+              <li><Link 
+              link='https://drive.google.com/file/d/1kyFW8TUQwpIz8QKawGH-df4JBcuOebgz/view?usp=share_link' 
+              text="Certificación en Desarrollo Web" 
+              alt="Certificación en Desarrollo Web" 
+              blank = {true}/>
+              </li>
+            </Certifications>
+
+            <Certifications img={Itep} imgAlt="Itep" imgTitle="Itep">
+              <li><Link 
+              link='https://drive.google.com/file/d/1Hzu0yUIK2MsoP4Qvehw0tgBBnNhSi_RP/view?usp=share_link' 
+              text="Certificación de nivel de Inglés B2" 
+              alt="Certificación de nivel de Inglés B2" 
+              blank = {true}/>
+              </li>
+            </Certifications>
+
+            <Certifications img={Voxy} imgAlt="Voxy" imgTitle="Voxy">
+              <li><Link 
+              link='https://app.voxy.com/certificates/proficiency-test/615e8b1d292928097180a067/' 
+              text="Certificado de nivel de Inglés B2" 
+              alt="Certificado de nivel de Inglés B2" 
+              blank = {true}/>
+              </li>
+              
+            </Certifications>
+
+            <Certifications img={Alura} imgAlt="Alura" imgTitle="Alura">
+              <li><Link 
+              link='https://app.aluracursos.com/user/mariosandovalv1998/course/logica-de-programacion-primeros-pasos/formalCertificate' 
+              text="Lógica de programación: conceptos primordiales" 
+              alt="Lógica de programación: conceptos primordiales" 
+              blank = {true}/>
+              </li>
+
+              <li><Link 
+              link='https://app.aluracursos.com/user/mariosandovalv1998/course/logica-de-programacion-conceptos-primordiales/formalCertificate' 
+              text="Lógica de programación: primeros pasos" 
+              alt="Lógica de programación: primeros pasos" 
+              blank = {true}/>
+              </li>
+            </Certifications>
+          </div>
+
         </section>
 
         <div className='space'></div>
