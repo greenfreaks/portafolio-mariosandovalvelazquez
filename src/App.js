@@ -1,3 +1,7 @@
+//Externals
+import React, { Component } from 'react';
+import Carousel from 'react-elastic-carousel';
+
 import Navbar from './components/Navbar';
 import Header from './components/Header';
 import Titulo from './components/Titulo';
@@ -31,11 +35,17 @@ import FrontTbr from './assets/img/front_tbr.png';
 
 
 function App() {
+  //Carousel Break points
+  const breakPoints =[
+    {width: 1, itemsToShow: 1},
+    {width: 768, itemsToShow: 2},
+    {width: 1500, itemsToShow: 3},
+    
+]
   return (
     <div className="App">
       <Header/>
       <Navbar/>
-      <h1>Hola</h1>
       <main>
         <div className='space'></div>
         <section className='tecnologias'>
@@ -59,16 +69,79 @@ function App() {
         <section className='proyectosFrontend'>
           <Titulo texto= 'Proyectos Front-end' />
           <div className='sectionContent'>
-            <CardImg 
-            img={FrontTbr} 
-            imgAlt="Sitio TBR" 
-            imgTitle="Sitio TBR" 
-            cardTitle= "Technology Business & Research" 
-            text = "Desarrollo de sitio web de la StartUp Technology Business & Research, dedicada al ramo de la ciencia y la tecnología."
-            btnLink='https://techbusiness.com.mx/' 
-            btnText='Visitar'
-            btnBlank = {true}
-            />
+            <Carousel breakPoints={breakPoints}>
+              <CardImg 
+              img={FrontTbr} 
+              imgAlt="Sitio TBR" 
+              imgTitle="Sitio TBR" 
+              cardTitle= "Technology Business & Research" 
+              text = "Desarrollo de sitio web de la StartUp Technology Business & Research, dedicada al ramo de la ciencia y la tecnología."
+              btnLink='https://techbusiness.com.mx/' 
+              btnText='Visitar'
+              btnBlank = {true}
+              />
+              <CardImg 
+              img={FrontTbr} 
+              imgAlt="Sitio TBR" 
+              imgTitle="Sitio TBR" 
+              cardTitle= "Technology Business & Research" 
+              text = "Desarrollo de sitio web de la StartUp Technology Business & Research, dedicada al ramo de la ciencia y la tecnología."
+              btnLink='https://techbusiness.com.mx/' 
+              btnText='Visitar'
+              btnBlank = {true}
+              />
+              <CardImg 
+              img={FrontTbr} 
+              imgAlt="Sitio TBR" 
+              imgTitle="Sitio TBR" 
+              cardTitle= "Technology Business & Research" 
+              text = "Desarrollo de sitio web de la StartUp Technology Business & Research, dedicada al ramo de la ciencia y la tecnología."
+              btnLink='https://techbusiness.com.mx/' 
+              btnText='Visitar'
+              btnBlank = {true}
+              />
+            </Carousel>
+            
+          </div>
+        </section>
+        
+        <div className='space'></div>
+        <section className='proyectosBackend'>
+          <Titulo texto= 'Proyectos Back-end' />
+          <div className='sectionContent'>
+            <Carousel breakPoints={breakPoints}>
+              <CardImg 
+              img={FrontTbr} 
+              imgAlt="Sitio TBR" 
+              imgTitle="Sitio TBR" 
+              cardTitle= "Technology Business & Research" 
+              text = "Desarrollo de sitio web de la StartUp Technology Business & Research, dedicada al ramo de la ciencia y la tecnología."
+              btnLink='https://techbusiness.com.mx/' 
+              btnText='Visitar'
+              btnBlank = {true}
+              />
+              <CardImg 
+              img={FrontTbr} 
+              imgAlt="Sitio TBR" 
+              imgTitle="Sitio TBR" 
+              cardTitle= "Technology Business & Research" 
+              text = "Desarrollo de sitio web de la StartUp Technology Business & Research, dedicada al ramo de la ciencia y la tecnología."
+              btnLink='https://techbusiness.com.mx/' 
+              btnText='Visitar'
+              btnBlank = {true}
+              />
+              <CardImg 
+              img={FrontTbr} 
+              imgAlt="Sitio TBR" 
+              imgTitle="Sitio TBR" 
+              cardTitle= "Technology Business & Research" 
+              text = "Desarrollo de sitio web de la StartUp Technology Business & Research, dedicada al ramo de la ciencia y la tecnología."
+              btnLink='https://techbusiness.com.mx/' 
+              btnText='Visitar'
+              btnBlank = {true}
+              />
+            </Carousel>
+            
           </div>
         </section>
 

@@ -1,0 +1,31 @@
+//Contenedor Principal del carrusel
+.rec{
+    height: 500px;
+    //Flechas
+    .cjzNGz, .arrow-left, .arrow-right{
+        &:hover{
+            background-color: $green;
+        }
+        &:active{
+            background-color: $green;
+        }
+    }
+    //Bullets
+    .rec-dot{
+        // border: solid 1px $black;
+        width: 15px;
+        height: 15px;
+    }
+
+    //Bullets Activos
+    .rec-dot_active{
+        background-color: $green;
+        box-shadow: none;
+        &:hover{
+            box-shadow: none;
+        }
+        &:active{
+            box-shadow: none;
+        }
+    }
+}
