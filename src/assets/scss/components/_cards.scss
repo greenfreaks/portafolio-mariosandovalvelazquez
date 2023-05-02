@@ -1,0 +1,67 @@
+.cardImg{
+    
+    width: 350px;
+    height: 490px;
+    padding: 30px;
+    background-color: $lightGray;
+    img{
+        width: 100%;
+        margin-bottom: 15px;    
+    }
+    &__text{
+        h3{
+            margin-bottom: 15px;
+        }
+        p{
+            height: 150px;
+            overflow-y: scroll;
+            margin-bottom: 15px;
+        }
+    }
+    
+}
+
+.cardVid{
+    width: 350px;
+    height: 490px;
+    padding: 30px;
+    background-color: $lightGray;
+    video{
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    &__text{
+        h3{
+            margin-bottom: 15px;
+        }
+        p{
+            height: 150px;
+            overflow-y: scroll;
+            margin-bottom: 15px;
+        }
+    }
+    
+}
+
+.cardYt{
+    width: 350px;
+    height: 490px;
+    padding: 30px;
+    background-color: $lightGray;
+    iframe{
+        width: 100%;
+        margin-bottom: 15px;
+        border: none;
+    }
+    &__text{
+        h3{
+            margin-bottom: 15px;
+        }
+        p{
+            height: 150px;
+            overflow-y: scroll;
+            margin-bottom: 15px;
+        }
+    }
+    
+}

@@ -2,7 +2,9 @@ import Navbar from './components/Navbar';
 import Header from './components/Header';
 import Titulo from './components/Titulo';
 import { Link, LinkImg } from './components/Links';
-import Certifications from './components/Certifications'
+import Certifications from './components/Certifications';
+import {CardImg, CardVid, CardYt} from './components/Cards';
+
 
 //imgs
 import HTML from './assets/img/html.png';
@@ -25,12 +27,15 @@ import Coderhouse from './assets/img/coderhouse.png';
 import Itep from './assets/img/itep.png';
 import Alura from './assets/img/alura.png';
 import Voxy from './assets/img/voxy.png';
+import FrontTbr from './assets/img/front_tbr.png';
+
 
 function App() {
   return (
     <div className="App">
       <Header/>
       <Navbar/>
+      <h1>Hola</h1>
       <main>
         <div className='space'></div>
         <section className='tecnologias'>
@@ -48,6 +53,23 @@ function App() {
               <img src={MYSQL} alt='MYSQL' title='MYSQL'></img>
               <img src={GREENSOCK} alt='GSAP' title='GSAP'></img>
             </div>
+        </section>
+
+        <div className='space'></div>
+        <section className='proyectosFrontend'>
+          <Titulo texto= 'Proyectos Front-end' />
+          <div className='sectionContent'>
+            <CardImg 
+            img={FrontTbr} 
+            imgAlt="Sitio TBR" 
+            imgTitle="Sitio TBR" 
+            cardTitle= "Technology Business & Research" 
+            text = "Desarrollo de sitio web de la StartUp Technology Business & Research, dedicada al ramo de la ciencia y la tecnología."
+            btnLink='https://techbusiness.com.mx/' 
+            btnText='Visitar'
+            btnBlank = {true}
+            />
+          </div>
         </section>
 
         <div className='space'></div>
