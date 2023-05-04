@@ -32,6 +32,11 @@ import Itep from './assets/img/itep.png';
 import Alura from './assets/img/alura.png';
 import Voxy from './assets/img/voxy.png';
 import FrontTbr from './assets/img/front_tbr.png';
+import FrontAmevitec from './assets/img/front_amevitec.png';
+import FrontLeccionesVuelo from './assets/img/front_leccionesVuelo.png';
+import FrontTolko from './assets/img/front_tolko.png';
+import FrontNave from './assets/img/front_nave.png';
+import FrontMatriz from './assets/img/front_matriz.png';
 
 
 function App() {
@@ -81,22 +86,45 @@ function App() {
               btnBlank = {true}
               />
               <CardImg 
-              img={FrontTbr} 
-              imgAlt="Sitio TBR" 
-              imgTitle="Sitio TBR" 
-              cardTitle= "Technology Business & Research" 
-              text = "Desarrollo de sitio web de la StartUp Technology Business & Research, dedicada al ramo de la ciencia y la tecnología."
-              btnLink='https://techbusiness.com.mx/' 
+              img={FrontAmevitec} 
+              imgAlt="Sitio AMEVITEC" 
+              imgTitle="Sitio AMEVITEC" 
+              cardTitle= "Agencia Mexicana de Vinculación Tecnológica, A.C." 
+              text = "Desarrollo de sitio web de la StartUp Agencia Mexicana de Vinculación Tecnológica, A.C., cuyo objetivo es vincular el talento de los estudiantes con empresas que desarrollan proyectos tecnológicos."
+              btnLink='https://greenfreaks.github.io/amevitec/sections/graficas.html' 
               btnText='Visitar'
               btnBlank = {true}
               />
+
+            <CardImg 
+              img={FrontLeccionesVuelo} 
+              imgAlt="Landing page Lecciones de vuelo" 
+              imgTitle="Landing page Lecciones de vuelo" 
+              cardTitle= "Lecciones de vuelo." 
+              text = "Desarrollo de Landing page donde la empresa Tolko Group, publicará sus podcast, este desarrollo cuenta con un reproductor de audio y con un animación al cargar el sitio web"
+              btnLink='https://msandovalv2022.github.io/tolko-podcast/' 
+              btnText='Visitar'
+              btnBlank = {true}
+              />
+
               <CardImg 
-              img={FrontTbr} 
-              imgAlt="Sitio TBR" 
-              imgTitle="Sitio TBR" 
-              cardTitle= "Technology Business & Research" 
-              text = "Desarrollo de sitio web de la StartUp Technology Business & Research, dedicada al ramo de la ciencia y la tecnología."
-              btnLink='https://techbusiness.com.mx/' 
+              img={FrontTolko} 
+              imgAlt="Sitio web Tolko Group" 
+              imgTitle="Sitio web Tolko Group" 
+              cardTitle= "Tolko Group" 
+              text = "Sitio Web de la empresa Tolko Group, en este proyecto incluyo funcion de Dark mode, cambio de idioma y algunas animaciones."
+              btnLink='http://www.tolkogroup.com/' 
+              btnText='Visitar'
+              btnBlank = {true}
+              />
+
+              <CardImg 
+              img={FrontNave} 
+              imgAlt="Animación Nave espacial con GSAP" 
+              imgTitle="Animación Nave espacial con GSAP" 
+              cardTitle= "Animación de nave espacial" 
+              text = "Animación de una nave espacial trabajada con GSAP, dezplaza lentamente la barra de desplazamiento hacia abajo y observa la maiga ;) por el momento la animación sólo es funcional en versión de escritorio y laptops."
+              btnLink='https://greenfreaks.github.io/cursosYt/gsap/blackWolf/clase3_naveEspacial/' 
               btnText='Visitar'
               btnBlank = {true}
               />
@@ -110,26 +138,6 @@ function App() {
           <Titulo texto= 'Proyectos Back-end' />
           <div className='sectionContent'>
             <Carousel breakPoints={breakPoints}>
-              <CardImg 
-              img={FrontTbr} 
-              imgAlt="Sitio TBR" 
-              imgTitle="Sitio TBR" 
-              cardTitle= "Technology Business & Research" 
-              text = "Desarrollo de sitio web de la StartUp Technology Business & Research, dedicada al ramo de la ciencia y la tecnología."
-              btnLink='https://techbusiness.com.mx/' 
-              btnText='Visitar'
-              btnBlank = {true}
-              />
-              <CardImg 
-              img={FrontTbr} 
-              imgAlt="Sitio TBR" 
-              imgTitle="Sitio TBR" 
-              cardTitle= "Technology Business & Research" 
-              text = "Desarrollo de sitio web de la StartUp Technology Business & Research, dedicada al ramo de la ciencia y la tecnología."
-              btnLink='https://techbusiness.com.mx/' 
-              btnText='Visitar'
-              btnBlank = {true}
-              />
               <CardImg 
               img={FrontTbr} 
               imgAlt="Sitio TBR" 
