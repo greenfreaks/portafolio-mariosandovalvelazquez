@@ -86,3 +86,43 @@
         }
     }
 }
+
+@media screen and (max-width: 768px){
+    .contacto{
+        &__fotoDescripcion{
+            margin: auto;
+            flex-direction: column;
+
+            &--foto{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                translate: 25px;
+            }
+
+            &--descripcion{
+                margin-top: 30px;
+            }
+        }
+        &__social{
+            margin-top: 20px;
+        }
+    }
+}
+
+@media screen and (max-width: 360px){
+    .contacto{
+        &__fotoDescripcion{
+            &--foto{
+                height: 10px;
+                translate: 50px;
+            }
+        }
+
+        &__social{
+            translate: 20px;
+        }
+    }
+}
+
+
