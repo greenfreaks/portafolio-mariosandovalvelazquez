@@ -29,28 +29,35 @@
 /* ---Títulos y certificaciones--------*/
 .titulosCertificaciones{
     .sectionContent{
-        display: flex;
-        justify-content:start;
-        align-items: start;
-        flex-wrap: wrap;
-
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
         .certifications{
-            width: 250px;
-            margin-right: 50px;
-            margin-bottom: 50px;
-
-            img{
-                height: 50px;
-            }
+            margin-right: 0px;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            
             ul{
-                li{
-                    margin-bottom: 15px;
-                }
+                margin-top: 25px;
+                margin-bottom: 50px;
+                text-align: center;
+                list-style: none;
             }
         }
     }
-
 }
+
+@media screen and (max-width: 368px){
+    .certifications{
+        img{
+            height: 50px;
+        }
+    }
+}
+
 
 /* ---------- Contacto -------- */
 .contacto{
