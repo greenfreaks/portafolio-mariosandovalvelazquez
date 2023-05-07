@@ -1,5 +1,5 @@
-const Header = () =>{
-    return(
+const Header = () => {
+    return (
         <header className="header">
             <div className="header__banner">
                 <div className="header__banner--logo">
@@ -13,7 +13,7 @@ const Header = () =>{
                     <p class="whiteTx">Ingeniero en Tecnologías de la Información con nivel de Inglés B2, <b class="greenTx">me considero un apasionado del desarrollo web,</b> siempre busco generar un buen impacto visual para el usuario y la comodidad de su navegación</p>
                 </div>
             </div>
-        </header>    
+        </header>
     )
 }
 

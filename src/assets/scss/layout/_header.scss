@@ -32,30 +32,34 @@
     }
 }
 
-@media screen and (max-width: 768px){
-    .header__banner{
+@media screen and (max-width: 768px) {
+    .header__banner {
         height: auto;
         grid-template-columns: 1fr;
-        grid-template-areas: 
-        "header__banner_logo"
-        "header__banner_text";
+        grid-template-areas:
+            "header__banner_logo"
+            "header__banner_text";
 
     }
 }
 
-@media screen and (max-width: 360px){
-    .header__banner{
+@media screen and (max-width: 360px) {
+    .header__banner {
         height: auto;
-        &--logo{
-            h1, h2, p, a{
+
+        &--logo {
+
+            h1,
+            h2,
+            p,
+            a {
                 text-align: center;
             }
         }
-        &--text{
+
+        &--text {
             padding-top: 10px;
         }
 
     }
 }
-
-
