@@ -2,6 +2,7 @@
 /* ---------- Tecnologías -------- */
 .tecnologias {
     &__img{
+        margin: auto;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -10,6 +11,17 @@
             margin-right: 50px;
             margin-bottom: 50px;
             height: 70px;
+        }
+    }
+}
+
+@media screen and (max-width: 368px){
+    .tecnologias{
+        &__img{
+            img{
+                height: 50px;
+                translate: 20px;
+            }
         }
     }
 }
