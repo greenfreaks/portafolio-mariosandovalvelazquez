@@ -1,6 +1,6 @@
 const Link = ({link, text, alt, blank = false}) =>{
     return(
-        <a className="link" href={link} alt={alt} target={ blank ? "_blank" : ""} rel={"noopenner"}> {text} </a>
+        <a className="link" href={link} target={ blank ? "_blank" : ""} rel={"noopenner"}> {text} </a>
     )
 }
 
