@@ -23,20 +23,26 @@ const Navbar = () => {
                     target = {false}
                 />  
                 <Link
-                    link = '#'
+                    link = '#proyectosFrontend'
                     text= 'Proyectos'
                     target = {false}
                 /> 
                 <Link
-                    link = '#'
+                    link = '#titulosCertificaciones'
                     text= 'Certificaciones'
                     target = {false}
                 />
                 <Link
-                    link = '#'
+                    link = '#experiencia'
+                    text= 'Experiencia'
+                    target = {false}
+                />
+                <Link
+                    link = '#contacto'
                     text= 'Contacto'
                     target = {false}
                 />
+                <span><button>ES</button> / <button>EN</button></span>
                 <button className="nav-btn nav-close-btn" onClick={showNavbar}> <FaTimes/> </button>    
             </nav>
             <button className="nav-btn" onClick={showNavbar}> <FaBars/> </button>

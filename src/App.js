@@ -70,7 +70,7 @@ function App() {
             </div>
         </section>
 
-        <div className='space'></div>
+        <div id='proyectosFrontend' className='space'></div>
         <section className='proyectosFrontend'>
           <Titulo texto= 'Proyectos Front-end' />
           <div className='sectionContent'>
@@ -133,7 +133,7 @@ function App() {
           </div>
         </section>
         
-        <div className='space'></div>
+        <div id='proyectosBackend' className='space'></div>
         <section className='proyectosBackend'>
           <Titulo texto= 'Proyectos Back-end' />
           <div className='sectionContent'>
@@ -153,7 +153,7 @@ function App() {
           </div>
         </section>
 
-        <div className='space'></div>
+        <div id='titulosCertificaciones' className='space'></div>
         <section className='titulosCertificaciones'>
           <Titulo texto= "Títulos y certificaciones" />
           <div className='sectionContent'>
@@ -226,7 +226,7 @@ function App() {
 
         </section>
 
-        <div className='space'></div>
+        <div id='contacto' className='space'></div>
         <section className='contacto'>
           <Titulo texto= "Contacto"/>
           <div className='contacto__fotoDescripcion sectionContent'>
