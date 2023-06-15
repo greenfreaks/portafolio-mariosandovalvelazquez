@@ -1,0 +1,86 @@
+{
+    "header":{
+        "myName": "Mario Sandoval Velázquez",
+        "myPosition": "Web Developer",
+        "myPassion": "Art and Tech are my passion.",
+        "btnText": "Download my resume",
+        "textPart1": "Information Technologies Engineer with B2 English Level, ",
+        "textPart2": "I love facing new challenges and learn new things all the time,",
+        "textPart3": " I always seek to generate great impacts with my work."
+    },
+    "navbar":{
+        "inicio": "Home",
+        "proyectos": "Projects",
+        "certificaciones": "Certifications",
+        "experiencia": "Experience",
+        "contacto": "Contact",
+        "languageEs": "SP",
+        "languageEn": "EN"
+    },
+    "app":{
+        "tecnologias" : {
+            "sectionTitle": "Technologies"
+        },
+        "proyectosFrontend":{
+            "sectionTitle": "Front-end projects",
+            "carousel":{
+                "tbr":{
+                    "cardTitle": "Technology Business & Research",
+                    "text": "StartUp Teechnology Business & Research website development, specialized in the field of science and technology."
+                },
+                "amevitec":{
+                    "cardTitle": "Agencia Mexicana de Vinculación Tecnológica, A.C.",
+                    "text": "StartUp Teechnology Business & Research website development, whose objective is to link the talent of the students with companies that develop technological projects."
+                },
+                "tolkoGroup":{
+                    "cardTitle": "Tolko Group",
+                    "text": "Tolko Group website, in this project I include Dark Mode and change of language functions, moreover some animations."
+                },
+                "leccionesVuelo":{
+                    "cardTitle": "Lecciones de vuelo",
+                    "text": "Landing page development where Tolko Group Company will publish its podcasts, this development has an audioplayer and shows an animation when the landing is opened."
+                },
+                "naveEspacial":{
+                    "cardTitle": "Spacecraft",
+                    "text": "Animation of a spacecraft developed with GSAP, slowly slide the scroll bar down and watch the magic ;) Currently the animation is only functional on desktop and laptop versions."
+                }
+            }
+        },
+        "proyectosBackend":{
+            "sectionTitle": "Back-end projects"
+        },
+        "titulosCertificaciones":{
+            "sectionTitle": "Degrees and certifications",
+            "utvam":{
+                "ingeniero":"Title as Engineer in Information Technology",
+                "tecnico": "Title as Higher University Technician in Information Technology",
+                "nivelIngles":"Recognition for obtaining the B2 level of English"
+            },
+            "coderhouse":{
+                "desarrolloWeb":"Web Development Certification"
+            },
+            "itep":{
+                "nivelIngles":"English B2 level certification"
+            },
+            "voxy":{
+                "nivelIngles":"English B2 level certification"
+            },
+            "alura":{
+                "logicaProgramacion":{
+                    "conceptosPrimordiales":"Lógica de programación: conceptos primordiales",
+                    "primerosPasos":"Lógica de programación: primeros pasos"
+
+                }
+            }
+        },
+        "contacto":{
+            "sectionTitle": "Contact",
+            "1stPart":"Hey! If you came here, I want to thank you for your interest in my work.",
+            "2ndPart":"I am very excited for us to start developing big projects and writing together",
+            "highlightedPart":"a new success story.",
+            "myName":"Mario Sandoval Velázquez",
+            "myPosition":"Web Developer"
+        }
+    }
+    
+}

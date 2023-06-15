@@ -1,0 +1,86 @@
+{
+    "header":{
+        "myName": "Mario Sandoval Velázquez",
+        "myPosition": "Desarrollador web",
+        "myPassion": "El arte y la tecnología son mi pasión.",
+        "btnText": "Descarga mi CV",
+        "textPart1": "Ingeniero en Tecnologías de la Información con nivel de Inglés B2, ",
+        "textPart2": "me encanta afrontar nuevos retos y aprender nuevas cosas todo el tiempo,",
+        "textPart3": " siempre busco generar grandes impactos con mi trabajo."
+    },
+    "navbar":{
+        "inicio": "Inicio",
+        "proyectos": "Proyectos",
+        "certificaciones": "Certificaciones",
+        "experiencia": "Experiencia",
+        "contacto": "Contacto",
+        "languageEs": "ES",
+        "languageEn": "EN"
+    },
+    "app":{
+        "tecnologias" : {
+            "sectionTitle": "Tecnologías"
+        },
+        "proyectosFrontend":{
+            "sectionTitle": "Proyectos Front-end",
+            "carousel":{
+                "tbr":{
+                    "cardTitle": "Technology Business & Research",
+                    "text": "Desarrollo de sitio web de la StartUp Technology Business & Research, dedicada al ramo de la ciencia y la tecnología."
+                },
+                "amevitec":{
+                    "cardTitle": "Agencia Mexicana de Vinculación Tecnológica, A.C.",
+                    "text": "Desarrollo de sitio web de la StartUp Agencia Mexicana de Vinculación Tecnológica, A.C., cuyo objetivo es vincular el talento de los estudiantes con empresas que desarrollan proyectos tecnológicos."
+                },
+                "tolkoGroup":{
+                    "cardTitle": "Tolko Group",
+                    "text": "Sitio Web de Tolko Group, en este proyecto incluyo funcion de Dark mode, cambio de idioma y algunas animaciones."
+                },
+                "leccionesVuelo":{
+                    "cardTitle": "Lecciones de vuelo",
+                    "text": "Desarrollo de Landing page donde la empresa Tolko Group publicará sus podcasts, este desarrollo cuenta con un reproductor de audio y con un animación al cargar el sitio web."
+                },
+                "naveEspacial":{
+                    "cardTitle": "Nave espacial",
+                    "text": "Animación de una nave espacial trabajada con GSAP, desliza lentamente la barra de desplazamiento hacia abajo y observa la magia ;) por el momento la animación sólo es funcional en versión de escritorio y laptops."
+                }
+            }
+        },
+        "proyectosBackend":{
+            "sectionTitle": "Proyectos Backend"
+        },
+        "titulosCertificaciones":{
+            "sectionTitle": "Títulos y certificaciones",
+            "utvam":{
+                "ingeniero":"Título como Ingeniero en Tecnologías de la Información",
+                "tecnico": "Título como Técnico Superior Universitario en Tecnologías de la Información",
+                "nivelIngles":"Reconocimiento por obtener el nivel de Inglés B2"
+            },
+            "coderhouse":{
+                "desarrolloWeb":"Certificación en Desarrollo Web"
+            },
+            "itep":{
+                "nivelIngles":"Certificación de nivel de Inglés B2"
+            },
+            "voxy":{
+                "nivelIngles":"Certificado de nivel de Inglés B2"
+            },
+            "alura":{
+                "logicaProgramacion":{
+                    "conceptosPrimordiales":"Lógica de programación: conceptos primordiales",
+                    "primerosPasos":"Lógica de programación: primeros pasos"
+
+                }
+            }
+        },
+        "contacto":{
+            "sectionTitle": "Contacto",
+            "1stPart":"¡Hey! Si has llegado hasta aquí quiero agradecerte por tu interés en mi trabajo.",
+            "2ndPart":"Estoy muy emocionado por que comencemos a desarrollar grandes proyectos y escribir juntos",
+            "highlightedPart":"una nueva historia de éxito.",
+            "myName":"Mario Sandoval Velázquez",
+            "myPosition":"Desarrollador web"
+        }
+    }
+    
+}

@@ -1,16 +1,21 @@
+//Config
+import {useTranslation} from "react-i18next";
+
 const Header = () => {
+    //Traducciones
+    const [t, i18n] = useTranslation("global");
     return (
         <header className="header">
             <div className="header__banner">
                 <div className="header__banner--logo">
-                    <h1>Mario Sandoval Velázquez</h1>
-                    <h2 className="greenTx">Desarrollador Web</h2>
-                    <p>El arte y la tecnología son mi pasión.</p> <br />
-                    <a href="#navHome" class="lgBtn green whiteTx bold"><b>Descarga mi CV</b></a>
+                    <h1>{t("header.myName")}</h1>
+                    <h2 className="greenTx">{t("header.myPosition")}</h2>
+                    <p>{t("header.myPassion")}</p> <br />
+                    <a href="#navHome" class="lgBtn green whiteTx bold"><b>{t("header.btnText")}</b></a>
                 </div>
 
                 <div class="header__banner--text">
-                    <p class="whiteTx">Ingeniero en Tecnologías de la Información con nivel de Inglés B2, <b class="greenTx">me considero un apasionado del desarrollo web,</b> siempre busco generar un buen impacto visual para el usuario y la comodidad de su navegación</p>
+                    <p class="whiteTx">{t("header.textPart1")} <b class="greenTx">{t("header.textPart2")}</b> {t("header.textPart3")}</p>
                 </div>
             </div>
         </header>

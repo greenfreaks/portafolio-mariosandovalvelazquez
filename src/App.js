@@ -1,3 +1,6 @@
+//Config
+import {useTranslation} from "react-i18next";
+
 //Externals
 import React, { Component } from 'react';
 import Carousel from 'react-elastic-carousel';
@@ -40,6 +43,8 @@ import FrontMatriz from './assets/img/front_matriz.png';
 
 
 function App() {
+  //Translations
+  const {t, i18n} = useTranslation("global");
   //Carousel Break points
   const breakPoints =[
     {width: 1, itemsToShow: 1},
@@ -54,7 +59,7 @@ function App() {
       <main>
         <div className='space'></div>
         <section className='tecnologias'>
-          <Titulo texto= "Tecnologías"/>
+          <Titulo texto= {t("app.tecnologias.sectionTitle")}/>
             <div className='tecnologias__img sectionContent'>
               <img src={HTML} alt='HTML' title='HTML'></img>
               <img src={CSS} alt='CSS' title='CSS'></img>
@@ -72,15 +77,15 @@ function App() {
 
         <div id='proyectosFrontend' className='space'></div>
         <section className='proyectosFrontend'>
-          <Titulo texto= 'Proyectos Front-end' />
+          <Titulo texto= {t("app.proyectosFrontend.sectionTitle")} />
           <div className='sectionContent'>
             <Carousel breakPoints={breakPoints}>
               <CardImg 
               img={FrontTbr} 
               imgAlt="Sitio TBR" 
               imgTitle="Sitio TBR" 
-              cardTitle= "Technology Business & Research" 
-              text = "Desarrollo de sitio web de la StartUp Technology Business & Research, dedicada al ramo de la ciencia y la tecnología."
+              cardTitle= {t("app.proyectosFrontend.carousel.tbr.cardTitle")} 
+              text = {t("app.proyectosFrontend.carousel.tbr.text")}
               btnLink='https://techbusiness.com.mx/' 
               btnText='Visitar'
               btnBlank = {true}
@@ -89,8 +94,8 @@ function App() {
               img={FrontAmevitec} 
               imgAlt="Sitio AMEVITEC" 
               imgTitle="Sitio AMEVITEC" 
-              cardTitle= "Agencia Mexicana de Vinculación Tecnológica, A.C." 
-              text = "Desarrollo de sitio web de la StartUp Agencia Mexicana de Vinculación Tecnológica, A.C., cuyo objetivo es vincular el talento de los estudiantes con empresas que desarrollan proyectos tecnológicos."
+              cardTitle= {t("app.proyectosFrontend.carousel.amevitec.cardTitle")} 
+              text = {t("app.proyectosFrontend.carousel.amevitec.text")}
               btnLink='https://greenfreaks.github.io/amevitec/sections/graficas.html' 
               btnText='Visitar'
               btnBlank = {true}
@@ -100,8 +105,8 @@ function App() {
               img={FrontLeccionesVuelo} 
               imgAlt="Landing page Lecciones de vuelo" 
               imgTitle="Landing page Lecciones de vuelo" 
-              cardTitle= "Lecciones de vuelo." 
-              text = "Desarrollo de Landing page donde la empresa Tolko Group, publicará sus podcast, este desarrollo cuenta con un reproductor de audio y con un animación al cargar el sitio web"
+              cardTitle= {t("app.proyectosFrontend.carousel.leccionesVuelo.cardTitle")} 
+              text = {t("app.proyectosFrontend.carousel.leccionesVuelo.text")}
               btnLink='https://msandovalv2022.github.io/tolko-podcast/' 
               btnText='Visitar'
               btnBlank = {true}
@@ -111,8 +116,8 @@ function App() {
               img={FrontTolko} 
               imgAlt="Sitio web Tolko Group" 
               imgTitle="Sitio web Tolko Group" 
-              cardTitle= "Tolko Group" 
-              text = "Sitio Web de la empresa Tolko Group, en este proyecto incluyo funcion de Dark mode, cambio de idioma y algunas animaciones."
+              cardTitle= {t("app.proyectosFrontend.carousel.tolkoGroup.cardTitle")} 
+              text = {t("app.proyectosFrontend.carousel.tolkoGroup.text")}
               btnLink='http://www.tolkogroup.com/' 
               btnText='Visitar'
               btnBlank = {true}
@@ -122,8 +127,8 @@ function App() {
               img={FrontNave} 
               imgAlt="Animación Nave espacial con GSAP" 
               imgTitle="Animación Nave espacial con GSAP" 
-              cardTitle= "Animación de nave espacial" 
-              text = "Animación de una nave espacial trabajada con GSAP, dezplaza lentamente la barra de desplazamiento hacia abajo y observa la maiga ;) por el momento la animación sólo es funcional en versión de escritorio y laptops."
+              cardTitle= {t("app.proyectosFrontend.carousel.naveEspacial.cardTitle")} 
+              text = {t("app.proyectosFrontend.carousel.naveEspacial.text")}
               btnLink='https://greenfreaks.github.io/cursosYt/gsap/blackWolf/clase3_naveEspacial/' 
               btnText='Visitar'
               btnBlank = {true}
@@ -135,7 +140,7 @@ function App() {
         
         <div id='proyectosBackend' className='space'></div>
         <section className='proyectosBackend'>
-          <Titulo texto= 'Proyectos Back-end' />
+          <Titulo texto= {t("app.proyectosBackend.sectionTitle")} />
           <div className='sectionContent'>
             <Carousel breakPoints={breakPoints}>
               <CardImg 
@@ -155,25 +160,26 @@ function App() {
 
         <div id='titulosCertificaciones' className='space'></div>
         <section className='titulosCertificaciones'>
-          <Titulo texto= "Títulos y certificaciones" />
+          <Titulo texto= {t("app.titulosCertificaciones.sectionTitle")} />
           <div className='sectionContent'>
             <Certifications img={Utvam} imgAlt="Utvam" imgTitle="Utvam">
               <li><Link 
               link='https://drive.google.com/file/d/1Tz9hnW50E_deQpukT-2eEGlGPVyr0jKe/view?usp=share_link' 
-              text="Título como Ingeniero en Tecnologías de la Información" 
+              text={t("app.titulosCertificaciones.utvam.ingeniero")}
               alt="Título como ingeniero en Tecnologías de la Información" 
               blank = {true}/>
               </li>
 
               <li><Link 
               link='https://drive.google.com/file/d/1XNUhYLi4t9101Uiad7kwWmQOJ5Wmu7Ja/view?usp=share_link' 
-              text="Título como Técnico Superior Universitario en Tecnologías de la Información" 
+              text={t("app.titulosCertificaciones.utvam.tecnico")}
               alt="Título como Técnico Superior Universitario en Tecnologías de la Información" 
               blank = {true}/>
               </li>
 
               <li><Link 
-              link='https://drive.google.com/file/d/1cE-nM4nzVNqKNHTwz-HkjshdtZOGn1H6/view?usp=share_link' text="Reconocimiento por obtener el nivel de Inglés B2" 
+              link='https://drive.google.com/file/d/1cE-nM4nzVNqKNHTwz-HkjshdtZOGn1H6/view?usp=share_link' 
+              text={t("app.titulosCertificaciones.utvam.nivelIngles")} 
               alt="Reconocimiento por obtener el nivel de Inglés B2" 
               blank = {true}/>
               </li>
@@ -182,7 +188,7 @@ function App() {
             <Certifications img={Coderhouse} imgAlt="Coderhouse" imgTitle="Coderhouse">
               <li><Link 
               link='https://drive.google.com/file/d/1kyFW8TUQwpIz8QKawGH-df4JBcuOebgz/view?usp=share_link' 
-              text="Certificación en Desarrollo Web" 
+              text={t("app.titulosCertificaciones.coderhouse.desarrolloWeb")}
               alt="Certificación en Desarrollo Web" 
               blank = {true}/>
               </li>
@@ -191,7 +197,7 @@ function App() {
             <Certifications img={Itep} imgAlt="Itep" imgTitle="Itep">
               <li><Link 
               link='https://drive.google.com/file/d/1Hzu0yUIK2MsoP4Qvehw0tgBBnNhSi_RP/view?usp=share_link' 
-              text="Certificación de nivel de Inglés B2" 
+              text={t("app.titulosCertificaciones.itep.nivelIngles")}
               alt="Certificación de nivel de Inglés B2" 
               blank = {true}/>
               </li>
@@ -200,7 +206,7 @@ function App() {
             <Certifications img={Voxy} imgAlt="Voxy" imgTitle="Voxy">
               <li><Link 
               link='https://app.voxy.com/certificates/proficiency-test/615e8b1d292928097180a067/' 
-              text="Certificado de nivel de Inglés B2" 
+              text={t("app.titulosCertificaciones.voxy.nivelIngles")}
               alt="Certificado de nivel de Inglés B2" 
               blank = {true}/>
               </li>
@@ -210,14 +216,14 @@ function App() {
             <Certifications img={Alura} imgAlt="Alura" imgTitle="Alura">
               <li><Link 
               link='https://app.aluracursos.com/user/mariosandovalv1998/course/logica-de-programacion-primeros-pasos/formalCertificate' 
-              text="Lógica de programación: conceptos primordiales" 
+              text={t("app.titulosCertificaciones.alura.logicaProgramacion.conceptosPrimordiales")}
               alt="Lógica de programación: conceptos primordiales" 
               blank = {true}/>
               </li>
 
               <li><Link 
               link='https://app.aluracursos.com/user/mariosandovalv1998/course/logica-de-programacion-conceptos-primordiales/formalCertificate' 
-              text="Lógica de programación: primeros pasos" 
+              text={t("app.titulosCertificaciones.alura.logicaProgramacion.primerosPasos")}
               alt="Lógica de programación: primeros pasos" 
               blank = {true}/>
               </li>
@@ -228,14 +234,14 @@ function App() {
 
         <div id='contacto' className='space'></div>
         <section className='contacto'>
-          <Titulo texto= "Contacto"/>
+          <Titulo texto= {t("app.contacto.sectionTitle")}/>
           <div className='contacto__fotoDescripcion sectionContent'>
             <img className='contacto__fotoDescripcion--foto' src={FotoMario} alt='Mario Sandoval Velázquez' title='Mario Sandoval Velázquez'></img>
             <div className='contacto__fotoDescripcion--descripcion'>
-              <p>"¡Hey! Si has llegado hasta aquí quiero agradecerte por tu interés en mi trabajo.</p>
-              <p>Estoy muy emocionado por que comencemos a desarrollar grandes proyectos y escribir juntos <span className='greenTx'>una nueva historia de éxito.</span>"</p>
-              <p>Mario Sandoval Velázquez <br />
-                <span className='greenTx'>Desarrollador web</span>
+              <p>{t("app.contacto.1stPart")}</p>
+              <p>{t("app.contacto.2ndPart")} <span className='greenTx'>{t("app.contacto.highlightedPart")}</span>"</p>
+              <p>{t("app.contacto.myName")}<br />
+                <span className='greenTx'>{t("app.contacto.myPosition")}</span>
               </p>
             
             </div>

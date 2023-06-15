@@ -1,3 +1,6 @@
+//Config
+import {useTranslation} from "react-i18next";
+
 //Hooks
 import { useRef } from "react";
 
@@ -8,6 +11,8 @@ import { Link } from "./Links";
 import {FaBars, FaTimes} from "react-icons/fa"
 
 const Navbar = () => {
+    //Traducciones
+    const [t, i18n] = useTranslation("global");
 
     const navRef = useRef();
     const showNavbar = () =>{
@@ -19,30 +24,30 @@ const Navbar = () => {
             <nav className="nav__links" ref={navRef}>
                 <Link
                     link = '#'
-                    text= 'Inicio'
+                    text= {t("navbar.inicio")}
                     target = {false}
                 />  
                 <Link
                     link = '#proyectosFrontend'
-                    text= 'Proyectos'
+                    text= {t("navbar.proyectos")}
                     target = {false}
                 /> 
                 <Link
                     link = '#titulosCertificaciones'
-                    text= 'Certificaciones'
+                    text= {t("navbar.certificaciones")}
                     target = {false}
                 />
                 <Link
                     link = '#experiencia'
-                    text= 'Experiencia'
+                    text= {t("navbar.experiencia")}
                     target = {false}
                 />
                 <Link
                     link = '#contacto'
-                    text= 'Contacto'
+                    text= {t("navbar.contacto")}
                     target = {false}
                 />
-                <span><button>ES</button> / <button>EN</button></span>
+                <span><button onClick ={()=>i18n.changeLanguage("es")}>{t("navbar.languageEs")}</button> / <button onClick ={()=>i18n.changeLanguage("en")}>{t("navbar.languageEn")}</button></span>
                 <button className="nav-btn nav-close-btn" onClick={showNavbar}> <FaTimes/> </button>    
             </nav>
             <button className="nav-btn" onClick={showNavbar}> <FaBars/> </button>
