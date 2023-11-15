@@ -38,16 +38,11 @@ const Navbar = () => {
                     target = {false}
                 />
                 <Link
-                    link = '#experiencia'
-                    text= {t("navbar.experiencia")}
-                    target = {false}
-                />
-                <Link
                     link = '#contacto'
                     text= {t("navbar.contacto")}
                     target = {false}
                 />
-                <span><button onClick ={()=>i18n.changeLanguage("es")}>{t("navbar.languageEs")}</button> / <button onClick ={()=>i18n.changeLanguage("en")}>{t("navbar.languageEn")}</button></span>
+                <span className="nav__languageBtn"><button className="nav__languageBtnEs" onClick ={()=>i18n.changeLanguage("es")}>{t("navbar.languageEs")}</button> / <button className="nav__languageBtnEn" onClick ={()=>i18n.changeLanguage("en")}>{t("navbar.languageEn")}</button></span>
                 <button className="nav-btn nav-close-btn" onClick={showNavbar}> <FaTimes/> </button>    
             </nav>
             <button className="nav-btn" onClick={showNavbar}> <FaBars/> </button>
