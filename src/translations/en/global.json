@@ -26,23 +26,28 @@
             "carousel":{
                 "tbr":{
                     "cardTitle": "Technology Business & Research",
-                    "text": "StartUp Teechnology Business & Research website development, specialized in the field of science and technology."
+                    "text": "StartUp Teechnology Business & Research website development, specialized in the field of science and technology.",
+                    "btn": "Visit"
                 },
                 "amevitec":{
                     "cardTitle": "Agencia Mexicana de Vinculación Tecnológica, A.C.",
-                    "text": "StartUp Teechnology Business & Research website development, whose objective is to link the talent of the students with companies that develop technological projects."
+                    "text": "StartUp Teechnology Business & Research website development, whose objective is to link the talent of the students with companies that develop technological projects.",
+                    "btn": "Visit"
                 },
                 "tolkoGroup":{
                     "cardTitle": "Tolko Group",
-                    "text": "Tolko Group website, in this project I include Dark Mode and change of language functions, moreover some animations."
+                    "text": "Tolko Group website, in this project I include Dark Mode and change of language functions, moreover some animations.",
+                    "btn": "Visit"
                 },
                 "leccionesVuelo":{
                     "cardTitle": "Lecciones de vuelo",
-                    "text": "Landing page development where Tolko Group Company will publish its podcasts, this development has an audioplayer and shows an animation when the landing is opened."
+                    "text": "Landing page development where Tolko Group Company will publish its podcasts, this development has an audioplayer and shows an animation when the landing is opened.",
+                    "btn": "Visit"
                 },
                 "naveEspacial":{
                     "cardTitle": "Spacecraft",
-                    "text": "Animation of a spacecraft developed with GSAP, slowly slide the scroll bar down and watch the magic ;) Currently the animation is only functional on desktop and laptop versions."
+                    "text": "Animation of a spacecraft developed with GSAP, slowly slide the scroll bar down and watch the magic ;) Currently the animation is only functional on desktop and laptop versions.",
+                    "btn": "Visit"
                 }
             }
         },

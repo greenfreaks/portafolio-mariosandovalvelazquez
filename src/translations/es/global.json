@@ -26,23 +26,28 @@
             "carousel":{
                 "tbr":{
                     "cardTitle": "Technology Business & Research",
-                    "text": "Desarrollo de sitio web de la StartUp Technology Business & Research, dedicada al ramo de la ciencia y la tecnología."
+                    "text": "Desarrollo de sitio web de la StartUp Technology Business & Research, dedicada al ramo de la ciencia y la tecnología.",
+                    "btn": "Visitar"
                 },
                 "amevitec":{
                     "cardTitle": "Agencia Mexicana de Vinculación Tecnológica, A.C.",
-                    "text": "Desarrollo de sitio web de la StartUp Agencia Mexicana de Vinculación Tecnológica, A.C., cuyo objetivo es vincular el talento de los estudiantes con empresas que desarrollan proyectos tecnológicos."
+                    "text": "Desarrollo de sitio web de la StartUp Agencia Mexicana de Vinculación Tecnológica, A.C., cuyo objetivo es vincular el talento de los estudiantes con empresas que desarrollan proyectos tecnológicos.",
+                    "btn": "Visitar"
                 },
                 "tolkoGroup":{
                     "cardTitle": "Tolko Group",
-                    "text": "Sitio Web de Tolko Group, en este proyecto incluyo funcion de Dark mode, cambio de idioma y algunas animaciones."
+                    "text": "Sitio Web de Tolko Group, en este proyecto incluyo funcion de Dark mode, cambio de idioma y algunas animaciones.",
+                    "btn": "Visitar"
                 },
                 "leccionesVuelo":{
                     "cardTitle": "Lecciones de vuelo",
-                    "text": "Desarrollo de Landing page donde la empresa Tolko Group publicará sus podcasts, este desarrollo cuenta con un reproductor de audio y con un animación al cargar el sitio web."
+                    "text": "Desarrollo de Landing page donde la empresa Tolko Group publicará sus podcasts, este desarrollo cuenta con un reproductor de audio y con un animación al cargar el sitio web.",
+                    "btn": "Visitar"
                 },
                 "naveEspacial":{
                     "cardTitle": "Nave espacial",
-                    "text": "Animación de una nave espacial trabajada con GSAP, desliza lentamente la barra de desplazamiento hacia abajo y observa la magia ;) por el momento la animación sólo es funcional en versión de escritorio y laptops."
+                    "text": "Animación de una nave espacial trabajada con GSAP, desliza lentamente la barra de desplazamiento hacia abajo y observa la magia ;) por el momento la animación sólo es funcional en versión de escritorio y laptops.",
+                    "btn": "Visitar"
                 }
             }
         },

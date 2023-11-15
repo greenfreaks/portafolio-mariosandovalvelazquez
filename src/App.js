@@ -87,7 +87,7 @@ function App() {
               cardTitle= {t("app.proyectosFrontend.carousel.tbr.cardTitle")} 
               text = {t("app.proyectosFrontend.carousel.tbr.text")}
               btnLink='https://techbusiness.com.mx/' 
-              btnText='Visitar'
+              btnText={t("app.proyectosFrontend.carousel.tbr.btn")}
               btnBlank = {true}
               />
               <CardImg 
@@ -97,7 +97,7 @@ function App() {
               cardTitle= {t("app.proyectosFrontend.carousel.amevitec.cardTitle")} 
               text = {t("app.proyectosFrontend.carousel.amevitec.text")}
               btnLink='https://greenfreaks.github.io/amevitec/sections/graficas.html' 
-              btnText='Visitar'
+              btnText={t("app.proyectosFrontend.carousel.amevitec.btn")}
               btnBlank = {true}
               />
 
@@ -108,7 +108,7 @@ function App() {
               cardTitle= {t("app.proyectosFrontend.carousel.leccionesVuelo.cardTitle")} 
               text = {t("app.proyectosFrontend.carousel.leccionesVuelo.text")}
               btnLink='https://msandovalv2022.github.io/tolko-podcast/' 
-              btnText='Visitar'
+              btnText={t("app.proyectosFrontend.carousel.leccionesVuelo.btn")}
               btnBlank = {true}
               />
 
@@ -119,7 +119,7 @@ function App() {
               cardTitle= {t("app.proyectosFrontend.carousel.tolkoGroup.cardTitle")} 
               text = {t("app.proyectosFrontend.carousel.tolkoGroup.text")}
               btnLink='http://www.tolkogroup.com/' 
-              btnText='Visitar'
+              btnText={t("app.proyectosFrontend.carousel.tolkoGroup.btn")}
               btnBlank = {true}
               />
 
@@ -130,7 +130,7 @@ function App() {
               cardTitle= {t("app.proyectosFrontend.carousel.naveEspacial.cardTitle")} 
               text = {t("app.proyectosFrontend.carousel.naveEspacial.text")}
               btnLink='https://greenfreaks.github.io/cursosYt/gsap/blackWolf/clase3_naveEspacial/' 
-              btnText='Visitar'
+              btnText={t("app.proyectosFrontend.carousel.naveEspacial.btn")}
               btnBlank = {true}
               />
             </Carousel>
