@@ -247,9 +247,9 @@ function App() {
             </div>
           </div>
           <div className='contacto__social sectionContent'>
-            <img src={Linkedin} alt='Linkedin' title='Linkedin'></img>
-            <img src={Gmail} alt='Gmail' title='Gmail'></img>
-            <img src={GithubSocial} alt='Github' title='Github'></img>
+            <LinkImg className="" link="https://www.linkedin.com/in/mariosandoval-fullstack/" alt="Linkedin" blank="_blank" img={Linkedin} />
+            <LinkImg className="" link="mailto:developermariosv@gmail.com" alt="Gmail" blank="_blank" img={Gmail} />
+            <LinkImg className="" link="https://github.com/greenfreaks" alt="Github" blank="_blank" img={GithubSocial} />
           </div>
 
         </section>
