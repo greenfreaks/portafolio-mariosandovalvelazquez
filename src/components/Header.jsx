@@ -11,7 +11,7 @@ const Header = () => {
                     <h1>{t("header.myName")}</h1>
                     <h2 className="greenTx">{t("header.myPosition")}</h2>
                     <p>{t("header.myPassion")}</p> <br />
-                    <a href="#navHome" class="lgBtn green whiteTx bold"><b>{t("header.btnText")}</b></a>
+                    <a href={t("header.btnLink")} target="_blank" class="lgBtn green whiteTx bold"><b>{t("header.btnText")}</b></a>
                 </div>
 
                 <div class="header__banner--text">
