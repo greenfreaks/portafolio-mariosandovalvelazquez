@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portafolio-mariosandovalvelazquez/static/css/main.2a724653.css",
-    "main.js": "/portafolio-mariosandovalvelazquez/static/js/main.a3ad9de4.js",
+    "main.js": "/portafolio-mariosandovalvelazquez/static/js/main.9262b685.js",
     "static/media/front_tbr.png": "/portafolio-mariosandovalvelazquez/static/media/front_tbr.3eedcf0b4495afe6a3ce.png",
     "static/media/front_tolko.png": "/portafolio-mariosandovalvelazquez/static/media/front_tolko.f1d36b221ace4afe0323.png",
     "static/media/front_leccionesVuelo.png": "/portafolio-mariosandovalvelazquez/static/media/front_leccionesVuelo.9d5638ba43a3d039ab26.png",
@@ -14,10 +14,10 @@
     "static/media/voxy.png": "/portafolio-mariosandovalvelazquez/static/media/voxy.806250d3df2ca8126c3d.png",
     "index.html": "/portafolio-mariosandovalvelazquez/index.html",
     "main.2a724653.css.map": "/portafolio-mariosandovalvelazquez/static/css/main.2a724653.css.map",
-    "main.a3ad9de4.js.map": "/portafolio-mariosandovalvelazquez/static/js/main.a3ad9de4.js.map"
+    "main.9262b685.js.map": "/portafolio-mariosandovalvelazquez/static/js/main.9262b685.js.map"
   },
   "entrypoints": [
     "static/css/main.2a724653.css",
-    "static/js/main.a3ad9de4.js"
+    "static/js/main.9262b685.js"
   ]
 }
