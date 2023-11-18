@@ -139,7 +139,7 @@ function App() {
         </section>
         
         <div id='proyectosBackend' className='space'></div>
-        <section className='proyectosBackend'>
+        {/* <section className='proyectosBackend'>
           <Titulo texto= {t("app.proyectosBackend.sectionTitle")} />
           <div className='sectionContent'>
             <Carousel breakPoints={breakPoints}>
@@ -156,7 +156,7 @@ function App() {
             </Carousel>
             
           </div>
-        </section>
+        </section> */}
 
         <div id='titulosCertificaciones' className='space'></div>
         <section className='titulosCertificaciones'>
