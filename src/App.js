@@ -38,6 +38,8 @@ import FrontTbr from './assets/img/front_tbr.png';
 import FrontAmevitec from './assets/img/front_amevitec.png';
 import FrontLeccionesVuelo from './assets/img/front_leccionesVuelo.png';
 import FrontTolko from './assets/img/front_tolko.png';
+import front_tolkoProducciones from './assets/img/front_tolkoProducciones.png';
+import FrontAmsofipo from './assets/img/front_amsofipo.png';
 import FrontNave from './assets/img/front_nave.png';
 import FrontMatriz from './assets/img/front_matriz.png';
 
@@ -81,22 +83,23 @@ function App() {
           <div className='sectionContent'>
             <Carousel breakPoints={breakPoints}>
               <CardImg 
-              img={FrontTbr} 
-              imgAlt="Sitio TBR" 
-              imgTitle="Sitio TBR" 
-              cardTitle= {t("app.proyectosFrontend.carousel.tbr.cardTitle")} 
-              text = {t("app.proyectosFrontend.carousel.tbr.text")}
-              btnLink='https://techbusiness.com.mx/' 
-              btnText={t("app.proyectosFrontend.carousel.tbr.btn")}
+              img={front_tolkoProducciones} 
+              imgAlt="Página Tolko Produccionees" 
+              imgTitle="Tolko Producciones" 
+              cardTitle= {t("app.proyectosFrontend.carousel.tolkoProducciones.cardTitle")} 
+              text = {t("app.proyectosFrontend.carousel.tolkoProducciones.text")}
+              btnLink='https://tolkoproducciones.com/' 
+              btnText={t("app.proyectosFrontend.carousel.tolkoProducciones.btn")}
               btnBlank = {true}
               />
+              
               <CardImg 
               img={FrontAmevitec} 
               imgAlt="Sitio AMEVITEC" 
               imgTitle="Sitio AMEVITEC" 
               cardTitle= {t("app.proyectosFrontend.carousel.amevitec.cardTitle")} 
               text = {t("app.proyectosFrontend.carousel.amevitec.text")}
-              btnLink='https://greenfreaks.github.io/amevitec/sections/graficas.html' 
+              btnLink='https://greenfreaks.github.io/amevitec/index.html' 
               btnText={t("app.proyectosFrontend.carousel.amevitec.btn")}
               btnBlank = {true}
               />

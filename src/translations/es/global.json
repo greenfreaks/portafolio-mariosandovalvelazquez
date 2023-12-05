@@ -25,9 +25,9 @@
         "proyectosFrontend":{
             "sectionTitle": "Proyectos Front-end",
             "carousel":{
-                "tbr":{
-                    "cardTitle": "Technology Business & Research",
-                    "text": "Desarrollo de sitio web de la StartUp Technology Business & Research, dedicada al ramo de la ciencia y la tecnología.",
+                "tolkoProducciones":{
+                    "cardTitle": "Tolko Producciones",
+                    "text": "Página realizada trabajando en conjunto con el equipo de Tolko Group, sitio dedicado a la venta de productos de hechos a base de vinil.",
                     "btn": "Visitar"
                 },
                 "amevitec":{

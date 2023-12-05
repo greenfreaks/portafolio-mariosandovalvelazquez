@@ -25,9 +25,9 @@
         "proyectosFrontend":{
             "sectionTitle": "Front-end projects",
             "carousel":{
-                "tbr":{
-                    "cardTitle": "Technology Business & Research",
-                    "text": "StartUp Teechnology Business & Research website development, specialized in the field of science and technology.",
+                "tolkoProducciones":{
+                    "cardTitle": "Tolko Producciones",
+                    "text": "Web page made working together with the team of Tolko Group, page dedicated to sell vynil based products.",
                     "btn": "Visit"
                 },
                 "amevitec":{
