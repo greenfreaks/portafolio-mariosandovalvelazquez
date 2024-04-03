@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portafolio-mariosandovalvelazquez/static/css/main.2a724653.css",
-    "main.js": "/portafolio-mariosandovalvelazquez/static/js/main.405d1ead.js",
+    "main.js": "/portafolio-mariosandovalvelazquez/static/js/main.0a665aeb.js",
     "static/media/front_tolkoProducciones.png": "/portafolio-mariosandovalvelazquez/static/media/front_tolkoProducciones.4d9bcb0c6551a0cacd4d.png",
     "static/media/front_tbr.png": "/portafolio-mariosandovalvelazquez/static/media/front_tbr.3eedcf0b4495afe6a3ce.png",
     "static/media/front_tolko.png": "/portafolio-mariosandovalvelazquez/static/media/front_tolko.f1d36b221ace4afe0323.png",
@@ -16,10 +16,10 @@
     "static/media/voxy.png": "/portafolio-mariosandovalvelazquez/static/media/voxy.806250d3df2ca8126c3d.png",
     "index.html": "/portafolio-mariosandovalvelazquez/index.html",
     "main.2a724653.css.map": "/portafolio-mariosandovalvelazquez/static/css/main.2a724653.css.map",
-    "main.405d1ead.js.map": "/portafolio-mariosandovalvelazquez/static/js/main.405d1ead.js.map"
+    "main.0a665aeb.js.map": "/portafolio-mariosandovalvelazquez/static/js/main.0a665aeb.js.map"
   },
   "entrypoints": [
     "static/css/main.2a724653.css",
-    "static/js/main.405d1ead.js"
+    "static/js/main.0a665aeb.js"
   ]
 }
