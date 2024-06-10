@@ -115,7 +115,7 @@ function App() {
               btnBlank = {true}
               />
 
-              <CardImg 
+              {/* <CardImg 
               img={FrontTolko} 
               imgAlt="Sitio web Tolko Group" 
               imgTitle="Sitio web Tolko Group" 
@@ -124,7 +124,7 @@ function App() {
               btnLink='http://www.tolkogroup.com/' 
               btnText={t("app.proyectosFrontend.carousel.tolkoGroup.btn")}
               btnBlank = {true}
-              />
+              /> */}
 
               <CardImg 
               img={FrontNave} 
